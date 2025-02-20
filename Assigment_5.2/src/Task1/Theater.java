@@ -17,21 +17,6 @@ public class Theater {
         return false;
     }
 
-    public static void main(String[] args) {
-        Theater theater = new Theater(15);
-
-        for(int i = 1; i <= 20; i++){
-            int tickets = (int) (Math.random() * 3) + 1;
-            if ( theater.sellTickets(tickets) ) {
-                System.out.println("Customer " + i + " reserved " + tickets + " tickets");
-            }
-            else {
-                System.out.println("Customer " + i + " couldn't reserve " + tickets + " tickets");
-            }
-
-        }
-    }
-
     public int ticketsLeft() {
         return this.seats;
     }
