@@ -1,4 +1,3 @@
--- Drop the database if it exists
 DROP DATABASE IF EXISTS currency_converter;
 
 CREATE DATABASE currency_converter;
@@ -17,6 +16,7 @@ INSERT INTO currencies (abbreviation, name, conversion_rate) VALUES
          ('USD', 'US Dollar', 1.000000),
          ('EUR', 'Euro', 0.940000),
 
+--
 DROP USER IF EXISTS 'appuser'@'localhost';
 
 CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'password';
