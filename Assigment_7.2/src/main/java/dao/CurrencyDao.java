@@ -1,6 +1,5 @@
 package dao;
 
-import entity.Currency;
 import datasource.MariaDbConnection;
 
 import java.sql.Connection;

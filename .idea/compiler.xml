@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Assigment_8.4" />
         <module name="Assigment_6.4" />
+        <module name="Assigment_7.3" />
         <module name="Assigment_6.3" />
         <module name="Assigment_7.2" />
         <module name="Assigment_6.2" />
@@ -15,5 +16,8 @@
         <module name="Assigment_6.1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Assigment_7.4" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
